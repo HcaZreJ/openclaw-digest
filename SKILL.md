@@ -18,7 +18,7 @@ Python 3.10+ with dependencies managed by `uv`:
 ```bash
 cd <skill-path>
 uv venv && source .venv/bin/activate
-uv add httpx beautifulsoup4
+uv sync
 ```
 
 Optional: set `GITHUB_TOKEN` env var for higher GitHub API rate limits (unauthenticated limit is 60 req/hr).
